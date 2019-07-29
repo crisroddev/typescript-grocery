@@ -1,8 +1,8 @@
 {
     "type": "postgres",
     "host": 5432,
-    "username": "postgres",
-    "password": "",
+    "username": "dev",
+    "password": "123456789",
     "database": "groceries",
     "synchronize": true,
     "logging": true,
