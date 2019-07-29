@@ -1,1 +1,4 @@
-console.log('Hello World');
+import { startServer } from './server';
+import { start } from 'repl';
+
+startServer();
