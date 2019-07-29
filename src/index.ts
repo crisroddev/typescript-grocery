@@ -1,4 +1,3 @@
-import { startServer } from './server';
-import { start } from 'repl';
+import { server } from './server';
 
-startServer();
+server();
