@@ -24,3 +24,4 @@ Grant Privileges To User
 ```
 typeorm reflect-metadata pg
 ```
+### Add Entities 
