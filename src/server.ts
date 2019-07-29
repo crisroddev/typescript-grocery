@@ -3,6 +3,10 @@ import * as express from 'express';
 const app = express();
 const port = 8080;
 
+app.get('/', (req, res, ) => {
+    res.json({hello: 'world'});
+})
+
 export const server = async () => {
     app.listen(port);
     console.log(`Server listening on http://localhost:${port}`);
