@@ -1,0 +1,8 @@
+{
+  "name": "typescript-grocery",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "https://github.com/crodriguez85/typescript-grocery.git",
+  "author": "CrisRod <crodriguez85@gmail.com>",
+  "license": "MIT"
+}
