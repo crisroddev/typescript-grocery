@@ -1,10 +1,11 @@
 {
     "type": "postgres",
-    "host": 5432,
+    "host": "localhost",
+    "port": 5432,
     "username": "dev",
     "password": "123456789",
     "database": "groceries",
     "synchronize": true,
     "logging": true,
-    "entities": ["src/entities/**/*.ts", "dist/entitites/**/*.js*/"]
-}
+    "entities": ["src/entities/**/*.ts", "dist/entities/**/*.js"]
+  }
