@@ -18,3 +18,4 @@ Create database groceries
 Create User
 Grant Privileges To User
 
+### .env File
