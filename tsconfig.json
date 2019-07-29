@@ -8,7 +8,7 @@
         "removeComments": true,
 
         // decorator support
-    "allowSyntheticalDefaultImports": false,
+    "allowSyntheticDefaultImports": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true
 

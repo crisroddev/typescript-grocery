@@ -5,3 +5,8 @@
 ```
 yarn add -D ts-node typescript
 ```
+### Types express
+```
+yarn add -D @types/express
+yarn add -D @types/node
+```
