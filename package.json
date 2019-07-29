@@ -4,5 +4,14 @@
   "main": "index.ts",
   "repository": "https://github.com/crodriguez85/typescript-grocery.git",
   "author": "CrisRod <crodriguez85@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "start:dev": "nodemon --exec ts-node ./src/index.ts"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
 }
