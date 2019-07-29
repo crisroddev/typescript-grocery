@@ -19,3 +19,8 @@ Create User
 Grant Privileges To User
 
 ### .env File
+
+### DB Dependencies
+```
+typeorm reflect-metadata pg
+```
