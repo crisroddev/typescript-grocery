@@ -1,6 +1,6 @@
 import { Router } from 'express';
 
-const router = Router();
+export const router = Router();
 
 router
     .route('/')
@@ -12,5 +12,3 @@ router
     .get()
     .put()
     .delete()
-
-export default router;

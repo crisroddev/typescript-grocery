@@ -1,5 +1,11 @@
 import * as express from 'express';
+
+// Imports Errors
 import { errorHandler, notFoundError} from './middlewares/errors.middlewares'
+
+// Imports Routes
+import { router as groceriesRoutes } from './controllers/groceries.routes';
+
 
 const app = express();
 
@@ -9,6 +15,7 @@ app.get('/', (req, res, ) => {
 
 app.use(notFoundError);
 app.use(errorHandler);
+app.use('/api/groceries', groceriesRoutes);
 
 export const server = async () => {
     await app.listen(process.env.PORT);
