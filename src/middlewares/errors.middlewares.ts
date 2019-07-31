@@ -1,9 +1,7 @@
 export const notFoundError = (req, res, next) => {
-    const err: Error = new Error('Not Foun');
-    next({
-        ...err,
-        status: 404
-    });
+    const err: any = new Error('Not Found');
+    err.status = 400;
+    next(err)
 };
 
 
