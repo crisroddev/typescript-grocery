@@ -25,4 +25,14 @@ Grant Privileges To User
 typeorm reflect-metadata pg
 ```
 ### Add Entities
+- Items
+- GroceryList
+
+### Use Async so the database connect before does anything
+
+### Routes
+#### Controllers and Middlewares Folders
+- Midlewares: ```errors.middlewares.ts```
+- Controllers: ``` groceries.handlers.ts groceries.routes.ts```
+
 
