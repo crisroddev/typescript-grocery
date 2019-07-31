@@ -4,7 +4,10 @@ import {
     PrimaryGeneratedColumn,
     Column,
     CreateDateColumn,
+    JoinColumn,
+    ManyToOne,
   } from 'typeorm';
+  import { Item } from './Item';
   
   @Entity('groceries')
   export class GroceryList extends BaseEntity {
@@ -21,5 +24,9 @@ import {
       type: 'timestamp'
     })
     created: string;
-    
+
+    @ManyToOne(type => Item, { cascade: true})
+    @JoinColumn()
+    items: Item[];
+  
   }
