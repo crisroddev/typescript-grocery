@@ -1,18 +1,25 @@
-import { BaseEntity, Entity, PrimaryGeneratedColumn, Column, CreateDateColumn } from 'typeorm';
-
-@Entity('groceries')
-export class GroceryList extends BaseEntity{
-    @PrimaryGeneratedColumn('uuid') id: string;
-
+import {
+    BaseEntity,
+    Entity,
+    PrimaryGeneratedColumn,
+    Column,
+    CreateDateColumn,
+  } from 'typeorm';
+  
+  @Entity('groceries')
+  export class GroceryList extends BaseEntity {
+    @PrimaryGeneratedColumn()
+    id: number
+  
     @Column({
-        type: 'text',
-        unique: true,
+      type: 'text',
+      unique: true
     })
     name: string;
-
+  
     @CreateDateColumn({
-        type: 'timestamp'
+      type: 'timestamp'
     })
     created: string;
     
-}
+  }
